@@ -1,0 +1,11 @@
+{
+  "apiVersion": 2,
+  "name": "my-plugin/my-react-block",
+  "title": "My React Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Ein Block, der eine React-App lädt",
+  "script": "my-react-app",
+  "editorScript": "my-react-app",
+  "render": "render_callback"
+}

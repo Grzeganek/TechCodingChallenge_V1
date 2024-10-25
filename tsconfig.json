@@ -14,7 +14,10 @@
     "baseUrl": "./src",
     "paths": {
       "@wordpress/*": ["./node_modules/@types/wordpress__*"]
-    }
+    },
+
+    /* Types für Node */
+    "types": ["node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
