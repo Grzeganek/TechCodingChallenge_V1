@@ -1,7 +1,23 @@
 {
+  "compilerOptions": {
+    "composite": true,
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "paths": {
+      "@wordpress/*": ["./node_modules/@types/wordpress__*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
   "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
 }

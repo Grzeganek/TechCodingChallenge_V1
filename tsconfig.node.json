@@ -10,7 +10,8 @@
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true,
+    "composite": true,
+    "outDir": "./build/node", // Definiere ein Ausgabe-Verzeichnis
 
     /* Linting */
     "strict": true,
